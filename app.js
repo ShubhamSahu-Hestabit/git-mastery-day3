@@ -1,6 +1,6 @@
 function getLoginMessage(isLoggedIn) {
   if (isLoggedIn) {
-    return "Login Successful";
+    return "Login Successful!";
   }
   return "Login failed";
 }
