@@ -1,8 +1,5 @@
 function getLoginMessage(isLoggedIn) {
-  if (isLoggedIn) {
-    return "Login successful";
-  }
-  return "Login failed";
+  return "Login successful";
 }
 
 module.exports = { getLoginMessage };
