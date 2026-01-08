@@ -32,7 +32,8 @@ The conflict was detected during `git pull` when Git reported a **content confli
 for `app.js`, indicating that manual resolution was required.
 
 📸 Evidence:
-- `images/MERGE_CONFLICT.png`
+
+![Git reporting merge conflict](images/MERGE_CONFLICT.png)
 
 ---
 
@@ -41,7 +42,8 @@ After detection, Git inserted conflict markers in `app.js`, showing both version
 of the conflicting changes.
 
 📸 Evidence:
-- `images/MERGE_CONFLICT_INSIDEFILE.png`
+
+![Conflict markers inside app.js](images/MERGE_CONFLICT_INSIDEFILE.png)
 
 ---
 
@@ -52,7 +54,8 @@ of the conflicting changes.
 - All conflict markers were removed.
 
 📸 Evidence:
-- `images/merge_nano.png`
+
+![Resolving conflict in nano editor](images/merge_nano.png)
 
 ---
 
@@ -62,7 +65,8 @@ After resolving the conflict:
 - The working tree returned to a clean state.
 
 📸 Evidence:
-- `images/jsfileaftercorrectionmerge.png`
+
+![File after conflict resolution](images/jsfileaftercorrectionmerge.png)
 
 ---
 
@@ -73,7 +77,8 @@ Once the conflict was resolved:
 - The commit history clearly shows branch divergence and merge.
 
 📸 Evidence:
-- `images/Graph.png`
+
+![Git commit graph showing merge](images/Graph.png)
 
 ---
 
