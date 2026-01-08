@@ -10,7 +10,7 @@ The conflict was manually resolved while **preserving both changes**, followed b
 ## Repository Setup
 - Two local clones were created:
   - `repo-A`
-  - `repo-B`
+  - `repo-B'
 - Both clones pointed to the same GitHub repository.
 - The file `app.js` was modified in both clones on the **same line**.
 
@@ -57,7 +57,7 @@ After resolving the conflict:
 
 ## Learnings
 - `git commit` saves changes **locally only**.
-- `git push` is required to publish commits to GitHub.
+- `git push` is required to publish commits and push to GitHub.
 - Merge conflicts occur during **merge operations**, not during commits.
 - Conflicts must be resolved manually when the same lines are changed differently.
 - A proper merge commit preserves complete project history.
